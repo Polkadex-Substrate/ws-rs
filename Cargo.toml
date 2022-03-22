@@ -20,8 +20,10 @@ byteorder = "1.2.1"
 bytes = "0.4.6"
 httparse = "1.2.4"
 log = "0.4.1"
-mio = "0.6.14"
-mio-extras = "2.0"
+#mio = "0.6.14"
+mio = {git="https://github.com/mzohreva/mio.git",branch="mz/sgx-port-0.6"}
+#mio-extras = "2.0"
+mio-extras = {git="https://github.com/Polkadex-Substrate/mio-extras.git", branch="gj-sgx-port-mio-v6"}
 rand = "0.7"
 sha-1 = "0.8.0"
 slab = "0.4"
